@@ -1,12 +1,12 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.3-1",
-    "lastTouchedAt": "2026-02-11T12:39:18.925Z"
+    "lastTouchedAt": "2026-02-11T13:08:28.567Z"
   },
   "wizard": {
-    "lastRunAt": "2026-02-11T12:39:18.897Z",
+    "lastRunAt": "2026-02-11T13:08:28.563Z",
     "lastRunVersion": "2026.2.3-1",
-    "lastRunCommand": "onboard",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -115,11 +115,11 @@
   "agents": {
     "defaults": {
       "model": {
+        "primary": "google-gemini-cli/gemini-3-pro-preview",
         "fallbacks": [
           "xai/grok-2-1212",
           "deepseek/deepseek-chat"
-        ],
-        "primary": "google-gemini-cli/gemini-3-pro-preview"
+        ]
       },
       "models": {
         "google-gemini-cli/gemini-3-pro-preview": {},
