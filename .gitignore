@@ -1,0 +1,6 @@
+workspace
+.env
+agents/main/agent
+devices
+identity
+exec-approvals.json
